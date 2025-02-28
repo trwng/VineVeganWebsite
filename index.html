@@ -389,7 +389,6 @@
         .navbar {
             position: absolute;
             top: 0;
-            /* Place it at the top of the header */
             left: 0;
             right: 0;
             background-color: rgba(44, 131, 67, 0.087);
@@ -397,7 +396,6 @@
             text-align: right;
             padding: 25px;
             z-index: 1000;
-            /* This ensures the navbar is on top of the background */
             backdrop-filter: blur(5px);
             transition: backdrop-filter 0.3s ease;
         }
@@ -406,13 +404,11 @@
         .navbar .logo {
             position: absolute;
             left: 20px;
-            /* Adjust as needed */
             top: 45%;
             transform: translateY(-50%);
 
-            /* Centers the logo vertically */
             height: 80px;
-            /* Adjust the height as needed */
+          
         }
 
         .navbar.sticky {
@@ -426,9 +422,8 @@
             background-color: rgba(198, 198, 198, 0.56);
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
             padding: 10px 40x;
-            /* Reduced padding for the floating effect */
+           
             border-radius: 25px;
-            /* Rounded corners */
             transition: background-color 0.3s ease, padding 0.3s ease, border-radius 0.3s ease, box-shadow 0.3s ease;
         }
 
